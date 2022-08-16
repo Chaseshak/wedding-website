@@ -54,7 +54,7 @@ ul li {
   list-style: none;
 }
 section .header {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 .section-padding {
   padding: $section-padding;
@@ -298,8 +298,9 @@ Hero
   z-index: 999;
   width: 100%;
 }
+
 header {
-  padding: 25px 0;
+  padding: 20px 0;
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   position: relative;
   width: 1170px;
@@ -319,7 +320,7 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 19px;
+    height: 64px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
@@ -360,7 +361,7 @@ header {
   .member-actions {
     position: absolute;
     right: 0;
-    top: 41px;
+    top: 30px;
     transition: all 300ms ease-in-out;
   }
 }
