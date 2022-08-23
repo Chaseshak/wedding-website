@@ -241,14 +241,14 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 22.5932759, lng: 88.27027720000001};
+    var location = {lat: 43.0196237, lng: -87.9093838};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
         scrollwheel: false
     });
 
-    var marker = new google.maps.Marker({
+    new google.maps.Marker({
         position: location,
         map: map
     });

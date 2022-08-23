@@ -1,7 +1,6 @@
 // Google Fonts
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700);
 // Imports
 //@import "compass";
 @import "partials/typography";
@@ -512,43 +511,6 @@ Features-stack
   }
 }
 
-/* ==========================================================================
-.hero-strip
-========================================================================== */
-.hero-strip {
-  margin-top: 120px;
-  background: #333844 url("../img/polygonal-bg.jpg") no-repeat center center;
-  padding-bottom: 190px;
-  position: relative;
-
-  i {
-    font-family: $accent-font;
-    font-weight: 300;
-    font-size: 25px;
-    color: #F69D52;
-    vertical-align: top;
-    margin-left: -8px;
-    font-style: normal;
-  }
-  h2 {
-    color: #fff;
-    margin: 0 0 20px 0;
-  }
-  p {
-    color: #ACB1B4;
-  }
-  .btn {
-    margin-top: 10px;
-  }
-  .logo-placeholder {
-    width: 230px;
-    height: 230px;
-    position: absolute;
-    bottom: -285px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
 
 /* ==========================================================================
 .events
@@ -797,6 +759,10 @@ RSVP form
       border-radius: 3px;
       width: 100%;
       font-size: 13px;
+
+      &:disabled {
+        cursor: not-allowed;
+      }
     }
     .form-input-group {
       width: 100%;
