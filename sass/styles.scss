@@ -762,6 +762,7 @@ RSVP form
 
       &:disabled {
         cursor: not-allowed;
+        background-color: $disabled;
       }
     }
     .form-input-group {
