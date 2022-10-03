@@ -415,6 +415,39 @@ Intro
 }
 
 /* ==========================================================================
+Accordion
+========================================================================== */
+.accordion {
+  background-color: $section-dark;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 1s;
+  font-weight: 500;
+
+  &:hover,
+  &:active {
+    background-color: #ccc;
+  }
+
+}
+.accordion-panel {
+  padding: 0 18px;
+  background-color: $section-light;
+  display: none;
+  overflow: hidden;
+
+  p {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+/* ==========================================================================
 Features-stack
 ========================================================================== */
 .features {
