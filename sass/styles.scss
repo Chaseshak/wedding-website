@@ -432,8 +432,12 @@ Accordion
   &:hover,
   &:active {
     background-color: #ccc;
+    -webkit-tap-highlight-color: transparent;
   }
 
+  i {
+    float: right;
+  }
 }
 .accordion-panel {
   padding: 0 18px;

@@ -192,12 +192,20 @@ $(document).ready(function () {
         to highlight the button that controls the panel */
         this.classList.toggle("active");
 
+        icon = this.querySelectorAll("i")[0]
+
         /* Toggle between hiding and showing the active panel */
         var panel = this.nextElementSibling;
         if (panel.style.display === "block") {
           panel.style.display = "none";
+          icon_class = "fa fa-chevron-down"
         } else {
           panel.style.display = "block";
+          icon_class = "fa fa-chevron-up"
+        }
+
+        if (icon !== undefined) {
+          icon.className = icon_class
         }
       });
     }
