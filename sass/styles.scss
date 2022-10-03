@@ -24,6 +24,8 @@ Global Styles
 }
 a {
   color: $accent-color;
+  font-weight: 700;
+  text-decoration: underline;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
   -webkit-transition-duration: 200ms;
@@ -307,6 +309,7 @@ header {
   transition: padding 300ms ease-in-out;
 
   a {
+    text-decoration: none;
     color: $txt-light;
     text-transform: uppercase;
     font-size: $nav-font-size;
